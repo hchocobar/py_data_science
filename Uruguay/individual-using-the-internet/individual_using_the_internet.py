@@ -2,22 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.ticker as mtick
 
-"""
-Provider: Gobierno de Uruguay
-Dataset: Porcentaje de personas que cuentan con internet en el hogar según departamento. Total país
-Source: Observatorio Social
-url dataset: https://www.catalogodatos.gub.uy/dataset/mides-indicador-11244
-License: Licencia de Datos Abiertos - Uruguay v0.1
-url license: https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/sites/agencia-gobierno-electronico-sociedad-informacion-conocimiento/files/documentos/publicaciones/licencia_de_datos_abiertos_0.pdf
-"""
 
-"""
-Provider: The World Bank
-Dataset: Individuals using the Internet (% of population)
-Source: International Telecommunication Union ( ITU ) World Telecommunication/ICT Indicators Database
-url dataset (download): 'https://data.worldbank.org/indicator/IT.NET.USER.ZS?name_desc=true'
-License: CC BY-4.0 - Creative Commons Attribution 4.0 International license
-"""
 # setting plot
 fig = plt.figure(figsize=(7, 5))
 ax = fig.add_subplot(1, 1, 1)
